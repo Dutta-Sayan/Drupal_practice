@@ -1,0 +1,18 @@
+uuid: b7a022e1-c164-4777-9cb6-c9ae611f4266
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'New Seller'
+type: new_seller
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

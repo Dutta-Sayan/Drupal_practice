@@ -1,0 +1,25 @@
+uuid: cbe1725d-5c77-44f7-9d6c-ab2e157ff473
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.categories
+  module:
+    - system
+  theme:
+    - bootstrap5
+id: bootstrap5_categories
+theme: bootstrap5
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:categories'
+settings:
+  id: 'system_menu_block:categories'
+  label: Categories
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

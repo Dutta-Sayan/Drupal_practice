@@ -1,0 +1,8 @@
+uuid: 1899080e-6b69-405e-8d4d-3112f872d0c4
+langcode: en
+status: true
+dependencies: {  }
+id: create-seller
+label: 'Create Seller'
+description: ''
+locked: false

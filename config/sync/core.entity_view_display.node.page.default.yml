@@ -1,0 +1,166 @@
+uuid: c9d2df36-9edf-4c0d-baa6-f55c73dc8e0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.page.body
+    - field.field.node.page.layout_builder__layout
+    - node.type.page
+    - views.view.appliances_block_view
+    - views.view.content_admin
+    - views.view.duplicate_of_mobile_block_view
+    - views.view.fashion_block_view
+    - views.view.grocery_block_view
+    - views.view.home_and_furniture_block_view
+    - views.view.mobile_block_view
+    - views.view.two_wheelers_block_view
+  module:
+    - layout_builder
+    - layout_discovery
+    - text
+    - user
+    - views
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+        components:
+          7a4f4a57-8dfb-4c6c-842b-d3068623a472:
+            uuid: 7a4f4a57-8dfb-4c6c-842b-d3068623a472
+            region: content
+            configuration:
+              id: 'views_block:content_admin-block_1'
+              label: 'Highest NUmber of Contents Created'
+              label_display: '0'
+              provider: views
+              context_mapping: {  }
+              views_label: 'Highest NUmber of Contents Created'
+              items_per_page: none
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+        components:
+          11e3f025-2603-4f18-847a-d9ca2df714b3:
+            uuid: 11e3f025-2603-4f18-847a-d9ca2df714b3
+            region: content
+            configuration:
+              id: 'views_block:appliances_block_view-block_1'
+              label: ''
+              label_display: '0'
+              provider: views
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: none
+            weight: 0
+            additional: {  }
+          2e0b296c-e65e-4953-9cc4-efc50f39e8b4:
+            uuid: 2e0b296c-e65e-4953-9cc4-efc50f39e8b4
+            region: content
+            configuration:
+              id: 'views_block:duplicate_of_mobile_block_view-block_1'
+              label: ''
+              label_display: '0'
+              provider: views
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: none
+            weight: 1
+            additional: {  }
+          d03b9e39-f501-49cc-9cfc-5d9e723be75d:
+            uuid: d03b9e39-f501-49cc-9cfc-5d9e723be75d
+            region: content
+            configuration:
+              id: 'views_block:grocery_block_view-block_1'
+              label: ''
+              label_display: '0'
+              provider: views
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: none
+            weight: 2
+            additional: {  }
+          b31c5c11-287e-41b4-95c8-05b3645dea55:
+            uuid: b31c5c11-287e-41b4-95c8-05b3645dea55
+            region: content
+            configuration:
+              id: 'views_block:mobile_block_view-block_1'
+              label: ''
+              label_display: '0'
+              provider: views
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: none
+            weight: 3
+            additional: {  }
+          72f86069-66fc-4160-b1e1-59d9fe512e10:
+            uuid: 72f86069-66fc-4160-b1e1-59d9fe512e10
+            region: content
+            configuration:
+              id: 'views_block:home_and_furniture_block_view-block_1'
+              label: ''
+              label_display: '0'
+              provider: views
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: none
+            weight: 4
+            additional: {  }
+          a374e6a9-5b56-40a0-a3f8-2d39430a2c7b:
+            uuid: a374e6a9-5b56-40a0-a3f8-2d39430a2c7b
+            region: content
+            configuration:
+              id: 'views_block:fashion_block_view-block_1'
+              label: ''
+              label_display: '0'
+              provider: views
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: none
+            weight: 5
+            additional: {  }
+          0bc4e195-63cc-4eaa-aa7c-a787f2a4ba0b:
+            uuid: 0bc4e195-63cc-4eaa-aa7c-a787f2a4ba0b
+            region: content
+            configuration:
+              id: 'views_block:two_wheelers_block_view-block_1'
+              label: ''
+              label_display: '0'
+              provider: views
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: none
+            weight: 6
+            additional: {  }
+        third_party_settings: {  }
+_core:
+  default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+hidden:
+  layout_builder__layout: true

@@ -1,0 +1,23 @@
+uuid: 2aadb327-dc89-475c-a737-d3728a33c905
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_phone_number
+    - node.type.new_seller
+id: node.new_seller.field_phone_number
+field_name: field_phone_number
+entity_type: node
+bundle: new_seller
+label: 'Phone Number'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 10
+  max: 10
+  prefix: ''
+  suffix: ''
+field_type: integer

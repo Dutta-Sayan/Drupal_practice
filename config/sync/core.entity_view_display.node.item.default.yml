@@ -1,0 +1,62 @@
+uuid: 1f0a288b-c219-4e8b-9ead-5ea33181170e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.item.field_description
+    - field.field.node.item.field_image_1
+    - field.field.node.item.field_price
+    - field.field.node.item.field_select_category
+    - node.type.item
+  module:
+    - image
+    - text
+    - user
+id: node.item.default
+targetEntityType: node
+bundle: item
+mode: default
+content:
+  field_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_image_1:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_price:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_select_category:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,23 @@
+uuid: ab964759-18d3-4833-9119-dd4044e4279c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price
+    - node.type.item
+id: node.item.field_price
+field_name: field_price
+entity_type: node
+bundle: item
+label: Price
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0.0
+  max: null
+  prefix: 'INR '
+  suffix: ''
+field_type: decimal

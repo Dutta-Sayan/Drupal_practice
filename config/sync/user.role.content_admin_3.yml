@@ -1,0 +1,23 @@
+uuid: 4e6a2848-3fb6-4f60-b38d-359fbbf95197
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.item
+    - node.type.new_seller
+  module:
+    - node
+    - toolbar
+id: content_admin_3
+label: 'Content Admin 3'
+weight: 6
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'administer nodes'
+  - 'create new_seller content'
+  - 'delete own item content'
+  - 'delete own new_seller content'
+  - 'edit own item content'
+  - 'edit own new_seller content'
