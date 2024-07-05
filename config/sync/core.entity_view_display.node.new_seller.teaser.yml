@@ -1,0 +1,28 @@
+uuid: 6ef92c48-a096-41a2-aaa3-f7ea6d6e919e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.new_seller.field_email_address
+    - field.field.node.new_seller.field_first_name
+    - field.field.node.new_seller.field_last_name
+    - field.field.node.new_seller.field_phone_number
+    - node.type.new_seller
+  module:
+    - user
+id: node.new_seller.teaser
+targetEntityType: node
+bundle: new_seller
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_email_address: true
+  field_first_name: true
+  field_last_name: true
+  field_phone_number: true

@@ -1,0 +1,36 @@
+uuid: d09e70ad-fe31-44b6-a329-3305d43ec778
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.create-seller
+  module:
+    - system
+    - user
+  theme:
+    - bootstrap5
+id: bootstrap5_createseller
+theme: bootstrap5
+region: nav_additional
+weight: 0
+provider: null
+plugin: 'system_menu_block:create-seller'
+settings:
+  id: 'system_menu_block:create-seller'
+  label: 'Create Seller'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator
+      content_admin_1: content_admin_1
+      content_admin_2: content_admin_2
+      content_admin_3: content_admin_3

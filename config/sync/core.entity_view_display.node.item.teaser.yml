@@ -1,0 +1,28 @@
+uuid: 3e10ec03-9ac0-452b-9215-dc50a1e7098c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.item.field_description
+    - field.field.node.item.field_image_1
+    - field.field.node.item.field_price
+    - field.field.node.item.field_select_category
+    - node.type.item
+  module:
+    - user
+id: node.item.teaser
+targetEntityType: node
+bundle: item
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_description: true
+  field_image_1: true
+  field_price: true
+  field_select_category: true
